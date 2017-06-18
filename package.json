@@ -1,12 +1,16 @@
 {
-  "name": "terceraprueba",
+  "name": "eoraptor",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"Morning Thief\" or first attempt to steal time to learn new stuff. Node, express, SPA, and a JS tech still TBD",
   "main": "server.js",
   "scripts": {
     "test": "test",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rbuitragoc/eoraptor.git"
+  },
+  "author": "Rick Buitrago",
+  "license": "MIT"
 }

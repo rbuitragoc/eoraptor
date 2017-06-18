@@ -29,7 +29,8 @@ app.post("*", function (req, res) {
     switch (req.body.user) {
         case "super": buf += messages.super;
         case "admin": buf += messages.admin;
-        case "regular": buf += messages.regular;
+        case "regular": buf += messages.regular; break;
+        default: return;
     }
     console.log(buf);
 });
